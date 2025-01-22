@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-icon {
+    margin-right: 10px;
+  }
+  .search-bar {
+    flex: 1;
+    margin: 0 20px;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+  }

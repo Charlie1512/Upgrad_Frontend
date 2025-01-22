@@ -1,0 +1,29 @@
+.products-page {
+    padding: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-toggle {
+    margin-right: 20px;
+  }
+  
+  .sort-dropdown {
+    width: 200px;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    padding: 10px;
+  }
+  
